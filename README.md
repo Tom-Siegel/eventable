@@ -11,7 +11,7 @@ npm install eventable
 ### Node.js
 
 ```javascript
-const { eventable } = require(eventable / eventable.js);
+const { eventable } = require("eventable.js");
 
 let listener = new eventable();
 

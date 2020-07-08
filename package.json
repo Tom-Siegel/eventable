@@ -1,5 +1,5 @@
 {
-  "name": "eventable",
+  "name": "x-eventable",
   "version": "1.0.0",
   "description": "make anything eventable",
   "main": "event.js",

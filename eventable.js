@@ -66,11 +66,15 @@
   };
 
   eventable.raise = function (target, options) {
-    if (typeof target === "object" && typeof target.raise === "function") {
+    if (eventable.canRaise(target) === true) {
       return target.raise(options);
-    } else {
-      console.error("object is not typeof eventable", target);
     }
+
+    return null;
+  };
+
+  eventable.canRaise = function (target) {
+    return typeof target === "object" && typeof target.raise === "function";
   };
 
   function _event(t) {

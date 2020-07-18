@@ -1,6 +1,6 @@
 {
   "name": "x-eventable",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "make anything eventable",
   "main": "event.js",
   "scripts": {

@@ -5,7 +5,7 @@
   "main": "event.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify eventable.js -o eventable.browser.js"
+    "build": "browserify eventable.js --standalone eventable -o dist/eventable.js"
   },
   "repository": {
     "type": "git",
